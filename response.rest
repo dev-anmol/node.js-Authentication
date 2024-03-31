@@ -1,0 +1,12 @@
+
+POST  http://localhost:4000/login
+Content-Type: application/json
+
+{
+  "username":"anmol"
+}
+
+
+###
+POST http://localhost:4000/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYW5tb2wiLCJpYXQiOjE3MTE4NzU4OTcsImV4cCI6MTcxMTg3NjE5N30.cGtJqoNoRBNzlfdy6FJXk3ba4FFov88upTrcMECoTQQ  
